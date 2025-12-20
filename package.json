@@ -1,6 +1,6 @@
 {
   "name": "hexlet",
-  "type": "module"
+  "type": "module",
   "version": "1.0.0",
   "description": "Мой первый проект на Хекслете",
   "homepage": "https://github.com/bajiek-13/hexlet-js#readme",
@@ -13,7 +13,6 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
