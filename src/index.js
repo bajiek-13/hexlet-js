@@ -1,9 +1,8 @@
-import _ from 'lodash';
+import _ from 'lodash'
 
 const run = () => {
-  console.log('Hello, Hexlet!');
-  console.log(_.last(['one', 'two']));
-};
+  console.log('Hello, Hexlet!')
+  console.log(_.last(['one', 'two']))
+}
 
-export default run;
-
+export default run

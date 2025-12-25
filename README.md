@@ -9,3 +9,18 @@
 ```bash
 make install
 ```
+
+## Development
+
+### Linting
+
+Проверка кода линтером:
+
+```bash
+make lint
+```
+Автоматическое исправление ошибок линтинга:
+
+```bash
+make lint-fix
+```
