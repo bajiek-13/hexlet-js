@@ -1,16 +1,12 @@
 import set from '../src/set.js'
+import assert from 'node:assert'
 
 const obj = {}
 
 set(obj, 'key1', 'value1')
-if (obj.key1 !== 'value1') {
-  throw new Error('Функция работает неверно!')
-}
+assert.deepEqual(obj, { key1: 'value1' })
 
 set(obj, 'key1', 'next value')
-if (obj.key1 === 'next value') {
-  throw new Error('Функция работает неверно!')
-}
+assert.deepEqual(obj, { key1: 'next value' })
 
 console.log('Все тесты пройдены!')
-
